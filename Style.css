@@ -1,0 +1,34 @@
+
+.editor {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    max-width: 600px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', monospace;
+    background-color: white;
+  }
+  
+  .editor-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .editor button {
+    padding: 5px 10px;
+    background-color: #0a7cdf;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .editor-content {
+    border: 1px solid #ccc;
+    min-height: 300px;
+    padding: 10px;
+    font-size: 14px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+  }
+  
